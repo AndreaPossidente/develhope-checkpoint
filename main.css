@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  height: 100vh;
+  align-items: stretch;
+}
+.wrapper * {
+  padding: 10px;
+}
+.wrapper .sidebar-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 200px;
+}
+.wrapper .sidebar-left .sidebar-left-head {
+  gap: 20px;
+  display: flex;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.wrapper .sidebar-left .sidebar-left-main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+}
+.wrapper .sidebar-left .sidebar-left-bottom {
+  width: 100%;
+  height: 150px;
+  margin-top: auto;
+}
+.wrapper .sidebar-right {
+  width: 250px;
+}
+.wrapper main {
+  flex-grow: 1;
+  background-color: #f5f5fb;
+}
+.wrapper main .main-header {
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: space-between;
+}
+.wrapper main .main-header .main-title {
+  width: 55%;
+}
+.wrapper main .main-subheader {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper main .main-subheader .buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.box {
+  background-color: #c4c4c4;
+}
+
+.box-fh {
+  height: 100%;
+  background-color: #c4c4c4;
+}
+
+.button {
+  width: 100px;
+}
+
+.rounded {
+  border-radius: 8px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+}
+
+.grow {
+  width: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */
